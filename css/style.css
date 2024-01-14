@@ -60,7 +60,7 @@ body
 
 .header-container
 {
-    padding: 40px 120px 50px 120px;
+    padding: 60px 120px 90px 120px;
 }
 
 .header-content
@@ -115,4 +115,23 @@ body
 .header-img img
 {
     width: 550px;
+}
+
+/* main */
+
+.main-container
+{
+    width: 80%;
+    margin: auto;
+}
+
+.main-company-name
+{
+    border-top: 2px solid #fafafa;
+    border-bottom: 2px solid #fafafa;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0 50px 0;
 }
