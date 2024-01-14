@@ -94,7 +94,7 @@ body
     padding: 15px 25px;
     font-size: 1rem;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
     background-color: #E02C6D;
     color: #fff;
 }
@@ -134,4 +134,110 @@ body
     justify-content: space-evenly;
     align-items: center;
     margin: 20px 0 50px 0;
+}
+
+/* Popular Collection */
+
+.popular-container
+{
+    margin: 100px 0;
+}
+
+.popular-content
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.popular-title h3
+{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #3a3a3a;
+}
+
+.popular-card
+{
+    padding: 15px;
+    box-shadow: 0px 0px 36px -5px rgba(0,0,0,0.3);
+    border-radius: 8px;
+}
+
+.popular-card img
+{
+
+}
+
+.popular-card h3
+{
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 20px;
+    color: #18191F;
+}
+
+.popular-card h4
+{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px 0;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.popular-card p
+{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 145%;
+    letter-spacing: 0.25px;
+}
+
+.popular-card .popular-rating
+{
+    display: flex;
+    gap: 10px;
+}
+
+.popular-card .popular-rating ul
+{
+    display: flex;
+    gap: 5px;
+}
+
+.popular-card .popular-rating ul li
+{
+    list-style-type: none;
+}
+
+.popular-card .popular-rating h5
+{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #5E6366;
+}
+
+.popular-card .popular-rating .popular-icon
+{
+    font-size: 12px;
+    color: #FB8200;
+}
+
+/* Featured products */
+
+.feature-content
+{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.feature-content h1
+{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #0A0826;
 }
