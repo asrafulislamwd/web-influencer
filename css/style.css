@@ -15,7 +15,7 @@ body
 .nav-container
 {
     display: flex;
-    padding: 85px 120px 50px 10px;
+    padding: 85px 120px 50px 120px;
     justify-content: space-between;
     align-items: center;
 }
@@ -57,3 +57,62 @@ body
 }
 
 /* header content */
+
+.header-container
+{
+    padding: 40px 120px 50px 120px;
+}
+
+.header-content
+{
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.headier-title h1
+{
+    font-size: 52px;
+    font-weight: bold;
+    padding-right: 100px;
+    line-height: 70px;
+    color: #3a3a3a;
+}
+
+.headier-title p
+{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 16px 0;
+    color: #3a3a3a;
+}
+
+.headier-title .btn-prymari
+{
+    border: 0;
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #E02C6D;
+    color: #fff;
+}
+
+.header-img
+{
+    background-image: url('../images/Circle\ design.svg');
+    background-position: center;
+    background-size: cover;
+    width: 620px;
+    height: 620px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img img
+{
+    width: 550px;
+}
