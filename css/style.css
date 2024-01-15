@@ -87,7 +87,7 @@ body
     color: #3a3a3a;
 }
 
-.headier-title .btn-prymari
+.headier-title .btn-prymari, .btn-feature
 {
     border: 0;
     border-radius: 30px;
@@ -225,12 +225,24 @@ body
     color: #FB8200;
 }
 
+.btn-popular
+{
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    float: right;
+    margin: 30px 135px;
+    background: transparent;
+    color: #E02C6D;
+}
+
 /* Featured products */
 
 .feature-content
 {
     display: flex;
     gap: 100px;
+    margin: 100px 0;
     align-items: center;
 }
 
@@ -240,4 +252,19 @@ body
     font-weight: bold;
     line-height: 60px;
     color: #0A0826;
+}
+
+
+.feature-content p
+{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 28px;
+    color: #6c6c6c;
+}
+
+.btn-feature
+{
+    border-radius: 2px;
+    margin-top: 20px;
 }
